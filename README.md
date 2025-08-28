@@ -1,23 +1,21 @@
 # Javier de Santiago Palomino - [LinkedIn](https://www.linkedin.com/in/javier-de-santiago-3795441a3/) - [Email](jasampa3000@gmail.com) - [Github](https://github.com/jdes01)
 
-
 ## TL;DR
 
-Backend software engineer with a ‘product developer’ mindset.
+Backend Software Engineer with experience in scalable distributed systems, event-driven architectures, and cloud-native development. Strong focus on product thinking, clean architectures (DDD, Hexagonal, CQRS), and team best practices.
 
 ## Profile
 
-- Problem-solving engineer who enjoys tackling complex challenges.
+- Delivered scalable backend solutions for high-traffic systems in startups and fast-paced environments
 - Experienced with a wide range of technologies and eager to learn cutting-edge tools.
 - Conscientious team player, dedicated to creating a comfortable team environment.
-- Active member of the tech community, passionate about the latest technologies and problem-solving approaches.
 - Available within UTC -2/+2 time zone (flexible).
 
 ## Technologies
 
 - Proficient in Python (Django/FastAPI) and TypeScript (NestJS/Next.js).
-- Experience with DDD, CQRS, Ports & Adapters, event sourcing, microservices, TDD.
-- Familiar with Redis, Postgres, Eventstore, MongoDB, Kafka, GraphQL, Docker.
+- Experience with DDD, CQRS, Clean Architectures, Event Sourcing, Event Driven Architectures, Microservices, TDD.
+- Familiar with AWS/GCP, Firestore, Redis, Postgres, Eventstore, MongoDB, Kafka, GraphQL, Docker.
 - Rust and Go wannabe.
 
 ## Languages
@@ -50,14 +48,24 @@ Backend software engineer with a ‘product developer’ mindset.
 
 **Backend Engineer** (June 2024 - Present)
 
-- Refactored, maintained, and developed new features, including internal tools.
+- Contributed to the development of a wide range of features, taking part not only in the technical implementation but also in product discovery and feature design. For example, redesigned and developed a complete alert system that allows configurable and reusable alerts to be built from user responses using composable building blocks.
+- Unified - and also split - microservices to improve maintainability and scalability.
+- Designed and implemented multiple integrations with external systems, including Salesforce.
+- Refactored and standardized CI/CD pipelines across projects.
+- Championed best practices across the engineering team, including Domain-Driven Design (DDD), clean architectures, and event-driven architectures.
+- Improved developer experience by enhancing debugging workflows, improving logging practices, and building automation tools (Makefiles, scripts).
+- Worked extensively with Google Cloud, including Pub/Sub topics and subscriptions, Cloud Tasks, Cloud Run, Cloud Functions, storage buckets, secrets management, service accounts, and role/permission management.
+- Designed and maintained Notion boards to track agile development workflows.
+- Proposed and implemented testing strategies for backend services to ensure reliability and maintainability.
+- Authored technical documentation and knowledge bases to support onboarding and long-term maintainability.
+- Collaborated closely with product managers, designers, and data teams to align technical decisions with business needs.
+- Researched and introduced new tools and technologies to improve development efficiency and product quality.
 
 ## Biggest Side Projects:
 
 ### [Matching-interests-based meetings app - ElCirculo](https://elcirculo.io)
 
 - Worked refactoring and developing features, such as interfaces, matching algorithms and third-parties integrations.
-
 
 ### [Coworking App - Netspaces](https://github.com/jdes01/Netspaces)
 
@@ -93,12 +101,4 @@ Backend software engineer with a ‘product developer’ mindset.
 ## Extra
 
 - Coordinated college software community for 4 years (Aula de Software Libre de la Universidad de Córdoba).
-- Coordinated 3 editions of a ~500 attendee software event (SalmorejoTech). Roles included:
-  - Team coordination
-  - Speaker scouting
-  - Marketing strategy coordination
-  - Sponsorship management coordination
-  - Public relations coordination
-- Achievements:
-  - Raised over $20k in a single edition.
-  - Achieved over 500k interactions on Twitter in a single month.
+- Led a 500-attendee software conference for 3 years, coordinating team, speakers, marketing, sponsorships and community engagement. Raised $20k in sponsorships and achieved 500k+ Twitter interactions in a single month
