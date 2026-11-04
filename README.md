@@ -26,7 +26,9 @@ In my first two months:
 - **Built observability from scratch.** Logs became structured, and traces connect Sentry, Loki and Grafana. I set up Grafana, rolled out a telemetry agent on every server, rebuilt Sentry into real error triage, added cron alerting, and introduced PostHog for product analytics and session replay. Incidents went from guesswork to queries.
 - **Took ownership of the infrastructure** across OVH, Datalix, Hetzner, Kubernetes and Cloudflare. I coordinated database migrations between providers with verified data, managed firewalls, and consolidated eight Docker images into one with faster builds and near-instant pod shutdown.
 - **Built new products end to end on my own.** I created the new TypeScript monorepo (DDD, architecture fitness functions, mutation testing) and shipped full verticals on it, such as electronic transport control documents (DeCA) in three days and embeddable client dashboards.
-- **Led AI adoption.** I trained the team to use agents well and built `etc-atlas`, an AI agent that answers questions about the whole infrastructure from 12 live sources in read-only or write mode. I put agents into business workflows: an MCP server for clients, a quoting bot, and AI-driven incident analysis.
+- **Led AI adoption.** I trained the team to use agents well and put agents into business workflows: an MCP server for clients, a quoting bot, and AI-driven incident analysis.
+- **Built `etc-atlas`, the team's AI operations hub.** It brings 12 data sources (Kubernetes, databases, Grafana, Sentry, cloud providers, Discord) behind one agent, with read and write strictly separated. Audit checks run against the live systems. Atlas starts and coordinates tasks itself and stays in sync with the trackers (Jira, GitHub), and it keeps the infrastructure documentation, incident history and investigations current. The whole team uses it.
+- **Built internal tooling for operations.** An ops console installs observability on each server, injects secrets, manages scoped API keys, and exposes a secure MCP endpoint so agents can operate the platform.
 
 **Security**
 
